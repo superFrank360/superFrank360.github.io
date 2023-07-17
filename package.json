@@ -2,7 +2,10 @@
   "name": "developer-portfolio-starter-code",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://superFrank360.github.io/react-gh-pages",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -18,7 +21,9 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",
+    "gh-pages": "^5.0.0",
     "postcss": "^8.4.26",
     "tailwindcss": "^3.3.3"
-  }
+  },
+
 }
